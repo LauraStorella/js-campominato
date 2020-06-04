@@ -39,7 +39,7 @@ console.log(numMaxTentativi);
 var numImmissioniUtente = 0;      //punteggio
 var bombaBeccata = false;
 
-while ( ( bombaBeccata === false ) && (numImmissioniUtente < 5) ) {    // TODO: cambia 5 in numMaxTentativi
+while ( ( bombaBeccata === false ) && (numImmissioniUtente < numMaxTentativi) ) {    
   var numUtente = parseInt(prompt('Inserisci un numero da 1 a ' + rangeMaxNumeri));
   numImmissioniUtente++;
 
